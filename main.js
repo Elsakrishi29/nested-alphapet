@@ -1,17 +1,11 @@
-let i,j,alpha;
-for(i=1;i<=5;i++)
+
+let i,j;
+for(i=65;i<=69;i++)
 {
-    alpha=65;
-    for(j=1;j<=i;j++)
+    for(j=65;j<=i;j++)
     {
-        document.write(String.fromCharCode(alpha));
-        alpha++;
+        document.write(String.fromCharCode(j));      
     }
     document.write("<br>");
 }
 
-/*let i;
-for(i=0;i<=65535;i++)
-{
-    document.write(i+")"+string.fromcharcode(i)+"<br>");
-}*/
